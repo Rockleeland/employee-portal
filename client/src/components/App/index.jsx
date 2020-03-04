@@ -26,8 +26,13 @@ function App() {
 
   return (
     <StyledApp>
-      {isError && <div>Something went wrong ...</div>}
-      {isLoading ? <div>Loading...</div> : <EmployeeTable rows={data} />}
+      {isError ? (
+        <div>Something went wrong ...</div>
+      ) : (
+        <div>
+          {isLoading ? <div>Loading...</div> : <EmployeeTable rows={data} />}
+        </div>
+      )}
     </StyledApp>
   );
 }

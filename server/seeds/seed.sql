@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS `employees` (
 
 INSERT INTO `employees` 
 (`email`,`first_name`,`last_name`,`position`, `createdAt`, `updatedAt`) 
-VALUES ('testeasy@gmail.com','Big','Bird', 'Host', '2020-03-03 07:39:10', '2020-03-03 07:39:10');  
+VALUES ('testeasy@gmail.com','Big','Bird', 'Sesame', '2020-03-03 07:39:10', '2020-03-03 07:39:10');  
 
 INSERT INTO `employees` 
 (`email`,`first_name`,`last_name`,`position`, `active`, `createdAt`, `updatedAt`) 
@@ -25,3 +25,7 @@ VALUES ('testeasy2@gmail.com','Luka','Doncic', 'Basketball Player', true, '2020-
 INSERT INTO `employees` 
 (`email`,`first_name`,`last_name`,`position`, `createdAt`, `updatedAt`) 
 VALUES ('testeasy3@gmail.com','Jimmy','G', 'QB', '2020-03-03 07:39:10', '2020-03-03 07:39:10');  
+
+INSERT INTO `employees` 
+(`email`,`first_name`,`last_name`,`position`, `createdAt`, `updatedAt`) 
+VALUES ('testeasy3@gmail.com','John','Smith', 'Product Manager', '2020-03-03 07:39:10', '2020-03-03 07:39:10');  
