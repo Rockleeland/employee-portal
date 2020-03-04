@@ -18,7 +18,7 @@ Dashboard for employees. Local CRUD app using React, Node, and MySQL.
 
 4.) Create env file to fill in mysql configuration. Use the `test.env` file as an example of how the env file should look like. Choose the database name from the seed.sql file.
 
-5.) Go back to the the root folder and run the command from below. This command concurrently starts the server as well as starts the react app.
+5.) Go back to the the root folder and run the command below. This command concurrently starts the server as well as starts the react app.
 
     yarn run start
 
