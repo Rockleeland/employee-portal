@@ -1,3 +1,5 @@
+DROP DATABASE IF EXISTS employee_portal;
+
 CREATE DATABASE employee_portal;
 
 USE employee_portal;
@@ -7,7 +9,9 @@ CREATE TABLE IF NOT EXISTS `employees` (
   first_name varchar(255) NOT NULL,
   last_name varchar(255) NOT NULL,
   active BOOLEAN DEFAULT false,
-  position varchar(255) NOT NULL
+  position varchar(255) NOT NULL,
+  createdAt datetime,
+  updatedAt datetime
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `employees` 
