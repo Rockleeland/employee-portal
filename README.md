@@ -32,7 +32,7 @@ Api routes start with `/api/employees`
 ![Post](./photos/Post.png)
 
 2.) Retrieve all employees using GET / Api
-![Post](./photos/GET.png)
+![Post](./photos/Get.png)
 
 3.) Retrieve a single employee by id using GET /:id Api
 ![Post](./photos/Get-1.png)
