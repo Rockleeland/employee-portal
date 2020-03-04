@@ -4,25 +4,29 @@ Dashboard for employees. Local CRUD app using React, Node, and MySQL.
 
 ## Installation
 
-1.) `bash yarn install`
+1.) Install root package.json
 
-2.) `bash cd client`
+`yarn install`
 
-    `bash yarn install`
+2.) Go to client folder and install
 
-3.) Create the database in local mysql using the queries in the `bash seed.sql` file.
+    cd client
 
-4.) Create env file to fill in mysql configuration. Use the `bash test.env` file as an example of how the env file should look like. Choose the database name from the seed.sql file.
+    yarn install
 
-5.) `bash yarn run start`
+3.) Create the database, table, and populate the table in local mysql using the queries in the `seed.sql` file.
 
-    This command concurrently starts the server as well as starts the react app.
+4.) Create env file to fill in mysql configuration. Use the `test.env` file as an example of how the env file should look like. Choose the database name from the seed.sql file.
+
+5.) `yarn run start`
+
+   This command concurrently starts the server as well as starts the react app.
 
 ## Rest Apis
 
 The react app uses a GET request, but there are other requests as well. I use Postman to call my routes. Pictures are provided.
 
-Api routes start with /api/employees
+Api routes start with `/api/employees`
 
 1.) Create a new employee using POST / Api
 ![Post](./photos/Post.png)
