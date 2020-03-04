@@ -1,0 +1,10 @@
+#General
+node_modules
+.env
+.DS_Store
+
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
